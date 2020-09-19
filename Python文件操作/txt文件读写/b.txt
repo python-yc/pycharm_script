@@ -1,0 +1,6 @@
+123
+abc
+最后一个空行不读
+
+The last blank line is not read
+

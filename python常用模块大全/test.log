@@ -1,0 +1,3 @@
+[2020-09-13 19:24:18][MainThread:2084][task_id:logger_1][logging 日志处理简要流程.py:57][INFO][-----info-----]
+[2020-09-13 19:24:18][MainThread:2084][task_id:logger_1][logging 日志处理简要流程.py:58][WARNING][-----warning-----]
+[2020-09-13 19:24:18][MainThread:2084][task_id:logger_1][logging 日志处理简要流程.py:59][ERROR][-----error-----]

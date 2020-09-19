@@ -56,7 +56,8 @@ logger.addHandler(consle_handler)
 
 # 4.8、打印日志
 logger.debug("-----debug-----")
-logger.info("-----info-----")
+logger.debug("-----debug test-----")
+logger.info("-----info test on github-----")
 logger.warning("-----warning-----")
 logger.error("-----error-----")
 

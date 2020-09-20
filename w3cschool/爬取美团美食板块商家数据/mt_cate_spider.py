@@ -106,8 +106,9 @@ def main():
     print('city_cate_url:', city_cate_url)
     # 开始爬取数据
     all_data = get_data(city_choice, city_cate_url)
+    print(all_data)
     # 将数据存储到 Excel中
-    save_to_excel(all_data, city_choice)
+    # save_to_excel(all_data, city_choice)
 
 
 if __name__ == '__main__':

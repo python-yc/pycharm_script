@@ -9,7 +9,7 @@ import logging
 4.2、设置logger日志的等级
 4.3、创建合适的Handler（FileHandler要有路径）
 4.4、设置每个Handler的日志等级
-4.5、创建日志的格式（# setFormatter 输出到控制台设置日志等是不生效的）
+4.5、创建日志的格式
 4.6、向Handler中添加上面创建的Handler格式
 4.7、将上面的Handler添加到logger中
 4.8、打印日志
@@ -31,8 +31,7 @@ consle_handler = logging.StreamHandler()
 # 4.4、设置每个Handler的日志等级
 file_handler.setLevel(logging.INFO)
 file_handler2.setLevel(logging.DEBUG)
-# setFormatter 设置日志等是不生效的
-consle_handler.setFormatter(logging.ERROR)
+consle_handler.setLevel(logging.ERROR)
 
 # 4.5、创建日志的格式
 # 注意logger.Formatter的大小写

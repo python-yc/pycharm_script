@@ -1,14 +1,24 @@
-import os
+def f():
+    c = 1
 
-print(os.listdir())
+    def fa():
+        d = c + 1
+        return d
 
-import json
+    return fa
 
-dic = {'name': '南京'}
+a = f()
+print(type(a))
+print(a())
 
-print(json.dumps(dic))
-import random
 
-print(random.randint(0, 5))
-print('================')
+def f():
+    c = 1
 
+    def fa():
+        c = c + 1
+        return c
+
+    return fa
+
+a = f()

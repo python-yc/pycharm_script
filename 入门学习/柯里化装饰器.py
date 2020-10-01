@@ -2,6 +2,7 @@ import datetime
 import time
 
 """
+## 流畅的python 目录中也有相关，包括nonlocal 的使用
 装饰器：
     函数作为它的参数
     返回值也是一个函数

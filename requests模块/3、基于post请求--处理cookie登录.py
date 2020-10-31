@@ -61,7 +61,7 @@ data = {
     'utf8': '✓',
     'authenticity_token': authenticity_token,
     'login': 'python-yc',
-    'password': 'yc13705676620'
+    'password': 'yc1370567***'
 }
 
 r2 = requests.post('https://github.com/session',

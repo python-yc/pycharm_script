@@ -77,7 +77,7 @@ url = 'https://github.com/settings/emails'
 r3 = requests.get(url, cookies=login_cookie)
 
 # 需要这些步骤，带上cookie，直接访问时不行的
-print('15655982512' in r3.text)  # True
+print('156559' in r3.text)  # True
 
 # ==================
 '''使用session自动处理cookie'''
@@ -94,14 +94,14 @@ data = {
     'utf8': '✓',
     'authenticity_token': authenticity_token,
     'login': 'python-yc',
-    'password': 'yc13705676620'
+    'password': 'yc137056***'
 }
 
 r2 = session.post('https://github.com/session', data=data)
 # 第三次请求
 r3 = session.get('https://github.com/settings/emails')
 
-print('15655982512' in r3.text)  # True
+print('1565598' in r3.text)  # True
 
 ## 3.3、补充json
 #没有指定请求头,#默认的请求头:application/x-www-form-urlencoed
